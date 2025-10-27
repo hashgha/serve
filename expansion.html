@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Expansion Scoring - Serve App Business Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Serve App - Business Development</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="30-60-90-plan.html">30-60-90 Day Plan</a></li>
+            <li><a href="pipeline.html">Sales Pipeline</a></li>
+            <li><a href="outreach.html">Outreach Templates</a></li>
+            <li><a href="proposal.html">B2B Proposal Template</a></li>
+            <li><a href="sla-nda.html">SLA/NDA Skeletons</a></li>
+            <li><a href="churn.html">Anti-Churn Playbook</a></li>
+            <li><a href="expansion.html">City Expansion Scoring</a></li>
+            <li><a href="kpi.html">KPI Dashboard Specs</a></li>
+            <li><a href="meeting.html">Meeting Templates</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>City Expansion Scoring</h2>
+        <section>
+            <h3>Factor Weights</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Factor</th>
+                        <th>Weight (0-1)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Population Index</td>
+                        <td>0.2</td>
+                    </tr>
+                    <tr>
+                        <td>B2B Stock (real estate/FM)</td>
+                        <td>0.2</td>
+                    </tr>
+                    <tr>
+                        <td>Avg Income/ARPU Potential</td>
+                        <td>0.15</td>
+                    </tr>
+                    <tr>
+                        <td>Competition Density (lower is better)</td>
+                        <td>0.15</td>
+                    </tr>
+                    <tr>
+                        <td>Logistics/Ops Cost (lower is better)</td>
+                        <td>0.1</td>
+                    </tr>
+                    <tr>
+                        <td>Expected CAC</td>
+                        <td>0.1</td>
+                    </tr>
+                    <tr>
+                        <td>Regulatory Ease</td>
+                        <td>0.05</td>
+                    </tr>
+                    <tr>
+                        <td>Partnership Footprint Potential</td>
+                        <td>0.05</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3>City Scoring</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Population Index (0-10)</th>
+                        <th>B2B Stock (0-10)</th>
+                        <th>Avg Income/ARPU (0-10)</th>
+                        <th>Competition Density (0-10, lower better)</th>
+                        <th>Logistics/Ops Cost (0-10, lower better)</th>
+                        <th>Expected CAC (0-10, lower better)</th>
+                        <th>Regulatory Ease (0-10)</th>
+                        <th>Partnership Footprint (0-10)</th>
+                        <th>Competition Density (score)</th>
+                        <th>Logistics/Ops Cost (score)</th>
+                        <th>Expected CAC (score)</th>
+                        <th>Weighted Score (0-10)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add city data here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
