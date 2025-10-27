@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI Dashboard Specs - Serve App Business Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        main {
+            direction: rtl;
+            text-align: right;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Serve App - Business Development</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="30-60-90-plan.html">30-60-90 Day Plan</a></li>
+            <li><a href="pipeline.html">Sales Pipeline</a></li>
+            <li><a href="outreach.html">Outreach Templates</a></li>
+            <li><a href="proposal.html">B2B Proposal Template</a></li>
+            <li><a href="sla-nda.html">SLA/NDA Skeletons</a></li>
+            <li><a href="churn.html">Anti-Churn Playbook</a></li>
+            <li><a href="expansion.html">City Expansion Scoring</a></li>
+            <li><a href="kpi.html">KPI Dashboard Specs</a></li>
+            <li><a href="meeting.html">Meeting Templates</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>مواصفات مؤشرات الأداء ولوحة التقارير</h2>
+        <section>
+            <h3>التعاريف الأساسية</h3>
+            <ul>
+                <li><strong>MRR (B2B):</strong> مجموع الرسوم الشهرية للعقود الفعالة.</li>
+                <li><strong>Repeat Rate:</strong> الطلبات المتكررة / إجمالي الطلبات.</li>
+                <li><strong>Cancellation Rate:</strong> الطلبات الملغاة / إجمالي الطلبات.</li>
+                <li><strong>SLA Compliance:</strong> طلبات ضمن حدود الاستجابة/الإنجاز / إجمالي الطلبات المعنية.</li>
+                <li><strong>Pipeline Coverage:</strong> (قيمة الفرص خلال 90 يوم) / (الهدف الشهري × 3).</li>
+            </ul>
+        </section>
+        <section>
+            <h3>أحداث تتبع مقترحة</h3>
+            <ul>
+                <li><code>lead_created</code></li>
+                <li><code>outreach_sent</code></li>
+                <li><code>meeting_held</code></li>
+                <li><code>proposal_sent</code></li>
+                <li><code>contract_signed</code></li>
+                <li><code>job_completed</code></li>
+                <li><code>job_canceled</code></li>
+                <li><code>invoice_sent</code></li>
+                <li><code>payment_received</code></li>
+            </ul>
+        </section>
+        <section>
+            <h3>تقارير</h3>
+            <ul>
+                <li><strong>أسبوعي:</strong> صفقات، مراحل، احتمالات، عوائق.</li>
+                <li><strong>شهري:</strong> الإيراد، الامتثال للـSLA، الإلغاءات، التكرار.</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
